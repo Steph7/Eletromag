@@ -155,8 +155,9 @@ Em que E1  é o campo elétrico que seria criado somente pela carga pontual 1. A
 
 
 
-# Campo  elétrico produzido por dipolo elétrico
+# Dipolo elétrico
 
+**Campo  elétrico produzido por dipolo elétrico** 
 
 Duas partículas carregadas de módulo q e sinais opostos, separadas por uma distância d recebem o nome de dipolo elétrico.
 
