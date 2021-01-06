@@ -8,7 +8,7 @@ output:
     number_sections: false
 ---
 
-Uma carga pontual Q1=3μC está localizada na origem e uma carga Q2=-7μC está a 0,4 m do eixo x, num sistema Cartesiano.  Determine o campo elétrico E = E(x) î em todos os pontos do eixo x. Desenhe E(x) como função de x,  e finalmente encontre em quais pontos o campo é nulo.
+Uma carga pontual $Q_1$=3μC está localizada na origem e uma carga $Q_2$=-7μC está a 0,4 m do eixo x, num sistema Cartesiano.  Determine o campo elétrico E = E(x) î em todos os pontos do eixo x. Desenhe E(x) como função de x,  e finalmente encontre em quais pontos o campo é nulo.
 
 <center>
 <a href = "https://virtual.ufmg.br/20202/mod/data/view.php?id=122660">
@@ -21,7 +21,7 @@ Uma carga pontual Q1=3μC está localizada na origem e uma carga Q2=-7μC está 
 a) Determine o campo elétrico, em todos os pontos do eixo X.
 
 <center>
-![FIGURA 1](images/)
+![FIGURA 1](images/fig1.png)
 </center>
 
 
@@ -57,7 +57,7 @@ Como o campo elétrico $\vec{E_1}$ aponta na diração x > 0 (à direita) e para
 
 
 <center>
-![FIGURA 2](images/)
+![FIGURA 2](images/fig2.png)
 </center>
 
 
@@ -71,7 +71,7 @@ $$
 A direção do campo $\vec{E_2}$ varia (no eixo X), como ilustrado na figura abaixo.
 
 <center>
-![FIGURA 3](images/)
+![FIGURA 3](images/fig3.png)
 </center>
 
 
@@ -111,7 +111,7 @@ $$
 Conforme ilustrado na figura 4, a direção dos campos $\vec{E_{1}}$ e $\vec{E_{2}}$ se invertem em alguns momentos ao longo do Eixo X.
 
 <center>
-![FIGURA 4](images/)
+![FIGURA 4](images/fig4.png)
 </center>
 
 
