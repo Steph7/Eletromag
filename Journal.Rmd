@@ -187,6 +187,8 @@ Instruções para aumentar o número de Cargas
 * E assim por diante! Divirta-se!
 * E espere o gráfico ser plotado, pois demora um pouco para gerar a imagem.
 
+2. Não se esqueça de rodar o código clicando na seta (Run)
+
 <iframe src="https://trinket.io/embed/python3/9f3821c659" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
