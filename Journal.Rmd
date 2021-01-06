@@ -14,16 +14,53 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-IMPORTANT: You can delete everything in here and start fresh. You might want to start by not deleting anything above this line until you know what that stuff is doing.
+O primeiro passo para entender do que se trata os Campos Elétricos, iremos definir alguns conceitos fundamentais.
+
+# Cargas elétricas (pontuais)
+
+**O que é uma carga pontual?**
+**Uma carga pontual gera campo elétrico?**
+**O que difere uma carga elétrica positiva de uma carga elétrica negativa?**
+
+Define-se carga elétrica pontual sendo um corpo eletrizado cujas dimensões são desprezíveis se comparadas às distâncias que o separam de outros corpos eletrizados.
+
+O campo elétrico de uma carga pontual terá direção radial, ou seja, como se a carga estivesse localizada no centro de um círculo de raio “r”.
 
 
-This is an .Rmd file. It is plain text with special features. Any time you write just like this, it will be compiled to normal text in the website. If you put a \# in front of your text, it will create a top level-header.
+## Natureza das cargas elétricas
 
-# My first post
+Cargas elétricas podem apresentar natureza positiva ou negativa.
 
-2018 | 7 | 23 Last compiled: `r Sys.Date()`
+Uma das principais diferenças entre as cargas positivas e negativas são as linhas de  campos geradas por essas cargas uma vez que o sentido de F é para longe da carga pontual q se ela for positiva e na direção da carga pontual se q for negativa.
 
-Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left. 
+Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma dessas cargas.
+
+![](images/cargas-eletricas.jpeg)
+
+# Campo  elétrico
+
+**O que é um campo elétrico?** 
+**Qual é o limite de um campo elétrico?**
+
+Cargas elétricas modificam as propriedades elétricas do espaço à sua volta, causando um campo elétrico. Esse campo elétrico desempenha a função de transmissor das interações entre cargas elétricas, podendo ser de afastamento ou de aproximação, de acordo com o sinal da carga que o produziu, sendo ele uma grandeza vetorial que depende do ponto no espaço em que ela se encontra.
+
+
+### Fórmula
+
+A expressão abaixo nos permite calcular a intensidade do campo elétrico, quaisquer que sejam as cargas que criam esse campo.
+
+<center> Definindo Campo Elétrico a partir de Força Elétrica:  </center>
+$$
+\vec{E}≡\frac{\vec{F_e}} {q_0}
+$$
+
+
+### Simulação
+
+Na simulação abaixo é possível adicionar cargas positivas (vermelhas) e negativas (azuis) e verificar o comportamento dos campos elétricos gerados por elas. Aplicando um sensor (ponto amarelo), é possível visualizar o vetor diretor desse campo em vários pontos da tela, conforme reposicionar o curso. Ainda é possível verificar o potencial desse campo e a distância entre as cargas, posicionando os equipamentos localizados na parte direta inferior.
+
+Que tal adicionar uma carga positiva e uma negativa? Esse cenário cria um dipolo elétrico!
+
 
 <iframe src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html" width="800" height="400" scrolling="no" allowfullscreen></iframe>
 

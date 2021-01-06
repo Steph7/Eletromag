@@ -373,14 +373,44 @@ div.tocify {
 </div>
 
 
-<p>IMPORTANT: You can delete everything in here and start fresh. You might want to start by not deleting anything above this line until you know what that stuff is doing.</p>
-<p>This is an .Rmd file. It is plain text with special features. Any time you write just like this, it will be compiled to normal text in the website. If you put a # in front of your text, it will create a top level-header.</p>
-<div id="my-first-post" class="section level1">
-<h1>My first post</h1>
-<p>2018 | 7 | 23 Last compiled: 2021-01-05</p>
-<p>Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left.</p>
+<p>O primeiro passo para entender do que se trata os Campos Elétricos, iremos definir alguns conceitos fundamentais.</p>
+<div id="cargas-elétricas-pontuais" class="section level1">
+<h1>Cargas elétricas (pontuais)</h1>
+<p><strong>O que é uma carga pontual?</strong> <strong>Uma carga pontual gera campo elétrico?</strong> <strong>O que difere uma carga elétrica positiva de uma carga elétrica negativa?</strong></p>
+<p>Define-se carga elétrica pontual sendo um corpo eletrizado cujas dimensões são desprezíveis se comparadas às distâncias que o separam de outros corpos eletrizados.</p>
+<p>O campo elétrico de uma carga pontual terá direção radial, ou seja, como se a carga estivesse localizada no centro de um círculo de raio “r”.</p>
+<div id="natureza-das-cargas-elétricas" class="section level2">
+<h2>Natureza das cargas elétricas</h2>
+<p>Cargas elétricas podem apresentar natureza positiva ou negativa.</p>
+<p>Uma das principais diferenças entre as cargas positivas e negativas são as linhas de campos geradas por essas cargas uma vez que o sentido de F é para longe da carga pontual q se ela for positiva e na direção da carga pontual se q for negativa.</p>
+<p>Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma dessas cargas.</p>
+<div class="figure">
+<img src="images/cargas-eletricas.jpeg" />
+
+</div>
+</div>
+</div>
+<div id="campo-elétrico" class="section level1">
+<h1>Campo elétrico</h1>
+<p><strong>O que é um campo elétrico?</strong> <strong>Qual é o limite de um campo elétrico?</strong></p>
+<p>Cargas elétricas modificam as propriedades elétricas do espaço à sua volta, causando um campo elétrico. Esse campo elétrico desempenha a função de transmissor das interações entre cargas elétricas, podendo ser de afastamento ou de aproximação, de acordo com o sinal da carga que o produziu, sendo ele uma grandeza vetorial que depende do ponto no espaço em que ela se encontra.</p>
+<div id="fórmula" class="section level3">
+<h3>Fórmula</h3>
+<p>A expressão abaixo nos permite calcular a intensidade do campo elétrico, quaisquer que sejam as cargas que criam esse campo.</p>
+<center>
+Definindo Campo Elétrico a partir de Força Elétrica:
+</center>
+<p><span class="math display">\[
+\vec{E}≡\frac{\vec{F_e}} {q_0}
+\]</span></p>
+</div>
+<div id="simulação" class="section level3">
+<h3>Simulação</h3>
+<p>Na simulação abaixo é possível adicionar cargas positivas (vermelhas) e negativas (azuis) e verificar o comportamento dos campos elétricos gerados por elas. Aplicando um sensor (ponto amarelo), é possível visualizar o vetor diretor desse campo em vários pontos da tela, conforme reposicionar o curso. Ainda é possível verificar o potencial desse campo e a distância entre as cargas, posicionando os equipamentos localizados na parte direta inferior.</p>
+<p>Que tal adicionar uma carga positiva e uma negativa? Esse cenário cria um dipolo elétrico!</p>
 <iframe src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html" width="800" height="400" scrolling="no" allowfullscreen>
 </iframe>
+</div>
 <div id="second-level-header" class="section level2">
 <h2>Second level header</h2>
 <p>You can add more headers by adding more hashtags. These won’t be put into the table of contents</p>
@@ -394,7 +424,7 @@ div.tocify {
 <h1>My second post (note the order)</h1>
 <iframe src="https://trinket.io/embed/glowscript/0924a7e482" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
-<p>2018 | 7 | 23 Last compiled: 2021-01-05</p>
+<p>2018 | 7 | 23 Last compiled: 2021-01-06</p>
 <p>I’m writing this tutorial going from the top down. And, this is how it will be printed. So, notice the second post is second in the list. If you want your most recent post to be at the top, then make a new post starting at the top. If you want the oldest first, do, then keep adding to the bottom</p>
 </div>
 <div id="adding-r-stuff" class="section level1">
