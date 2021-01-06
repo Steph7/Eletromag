@@ -25,6 +25,9 @@ This is an .Rmd file. It is plain text with special features. Any time you write
 
 Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left. 
 
+<iframe src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html" width="800" height="400" scrolling="no" allowfullscreen></iframe>
+
+
 ## Second level header
 
 You can add more headers by adding more hashtags. These won't be put into the table of contents
@@ -34,6 +37,9 @@ You can add more headers by adding more hashtags. These won't be put into the ta
 Here's an even lower level header
 
 # My second post (note the order)
+
+
+<iframe src="https://trinket.io/embed/glowscript/0924a7e482" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 2018 | 7 | 23 Last compiled: `r Sys.Date()`
 
