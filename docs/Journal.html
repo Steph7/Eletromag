@@ -377,7 +377,9 @@ div.tocify {
 <div id="cargas-elétricas" class="section level1">
 <h1>Cargas elétricas</h1>
 <p>(Considerando cargas elétricas pontuais)</p>
-<p><a href = "https://images.app.goo.gl/LefCnAhMtHgMZVHCA"> <img src="images/cargas-pos-neg.png" /> </a></p>
+<center>
+<a href = "https://images.app.goo.gl/LefCnAhMtHgMZVHCA"> <img src="images/cargas-pos-neg.png" /> </a>
+</center>
 <p><strong>O que é uma carga pontual?</strong> <strong>Uma carga pontual gera campo elétrico?</strong> <strong>O que difere uma carga elétrica positiva de uma carga elétrica negativa?</strong></p>
 <p>Define-se carga elétrica pontual sendo um corpo eletrizado cujas dimensões são desprezíveis se comparadas às distâncias que o separam de outros corpos eletrizados.</p>
 <p>O campo elétrico de uma carga pontual terá direção radial, ou seja, como se a carga estivesse localizada no centro de um círculo de raio “r”.</p>
@@ -386,7 +388,9 @@ div.tocify {
 <p>Cargas elétricas podem apresentar natureza positiva ou negativa.</p>
 <p>Uma das principais diferenças entre as cargas positivas e negativas são as linhas de campos geradas por essas cargas uma vez que o sentido de F é para longe da carga pontual q se ela for positiva e na direção da carga pontual se q for negativa.</p>
 <p>Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma dessas cargas.</p>
-<p><a href = "https://images.app.goo.gl/vLDS4zFsL2SkEqMA6"> <img src="images/cargas-eletricas.jpeg" /> </a></p>
+<center>
+<a href = "https://images.app.goo.gl/vLDS4zFsL2SkEqMA6"> <img src="images/cargas-eletricas.jpeg" /> </a>
+</center>
 </div>
 <div id="como-determinar-um-campo-elétrico" class="section level2">
 <h2>Como determinar um campo elétrico?</h2>
@@ -444,15 +448,43 @@ Definindo Campo Elétrico a partir de Força Elétrica:
 <h1>Campo elétrico Total</h1>
 <p><strong>Como o campo elétrico gerado por uma carga pontual interfere no campo elétrico gerado por uma outra carga pontual?</strong> <strong>Qual será relação da natureza das cargas nesse sentido?</strong></p>
 <p>O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, ou seja, cargas de mesma natureza ou mesmo sinal quando estão próximas tem um comportamento de repulsão entre si. Já cargas de sinais opostos estão próximas sua tendência é se aproximar ainda mais, logo o sentido do campo elétrico será para longe da carga pontual positiva e na direção da carga pontual negativa.</p>
-<p><a href = "https://i.stack.imgur.com/JxCq5.png"> <img src="images/posit-negativ.png" /> </a></p>
+<center>
+<a href = "https://i.stack.imgur.com/JxCq5.png"> <img src="images/posit-negativ.png" /> </a>
+</center>
 <center>
 <a href = "https://images.app.goo.gl/tnWtBjpfYN3Axf666"> <img src="images/campos-dipolo.png" style="width:50.0%" /> </a>
 </center>
+<p>Quando colocamos uma carga prova positiva <span class="math inline">\(q_0\)</span> nas proximidades de N cargas pontuais <span class="math inline">\(q_1\)</span>, <span class="math inline">\(q_2\)</span>,…<span class="math inline">\(q_n\)</span>, a carga de prova é submetida a uma força total <span class="math inline">\(\vec{F_T}\)</span> dada por:</p>
+<p><span class="math display">\[
+\vec{F_T} = \vec{F_1} + \vec{F_2} + ... + \vec{F_n}
+\]</span></p>
+<p><span class="math display">\[
+\vec{F_T} = \sum_{i}^{n}\vec{F_i}
+\]</span></p>
+<p>Assim, o campo elétrico total <span class="math inline">\(\vec{E_T}\)</span> na posição da carga de prova é dado por:</p>
+<p><span class="math display">\[
+\vec{E_T} = \frac{\vec{F_T}}{q_0} = \frac{\vec{F_1}}{q_0} + \frac{\vec{F_2}}{q_0} + ... + \frac{\vec{F_n}}{q_0}
+\]</span></p>
+<p><span class="math display">\[
+\vec{E_T} = \vec{E_1} + \vec{E_2} + ... + \vec{E_n} = \sum_{i}^{n}\vec{E_i}
+\]</span></p>
+<p>Em que E1 é o campo elétrico que seria criado somente pela carga pontual 1. A equação mostra que o princípio de superposição se aplica aos campos elétricos.</p>
 </div>
-<div id="visualizar-gráfico-do-campo-elétrico" class="section level1">
-<h1>Visualizar gráfico do campo elétrico</h1>
-<iframe src="https://trinket.io/embed/glowscript/0924a7e482" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+<div id="campo-elétrico-produzido-por-dipolo-elétrico" class="section level1">
+<h1>Campo elétrico produzido por dipolo elétrico</h1>
+<p>Duas partículas carregadas de módulo q e sinais opostos, separadas por uma distância d recebem o nome de dipolo elétrico.</p>
+<p>Por simetria, o campo elétrico <span class="math inline">\(\vec{E_p}\)</span> no ponto P deve ser paralelo ao eixo do dipolo.</p>
+<center>
+<p><a href = "https://www.geeksforgeeks.org/matplotlib-pyplot-streamplot-in-python/"> <img src="images/dipolo.png" style="width:80.0%" /></p>
+</a>
+</center>
+</div>
+<div id="referências" class="section level1">
+<h1>Referências:</h1>
+<ol style="list-style-type: decimal">
+<li><p>HALLIDAY, David, RESNICK, Robert, WALKER, Jearl. Fundamentos de Física - Vol. 3 - Eletromagnetismo, 10ª edição. LTC, 06/2016. VitalBook file.</p></li>
+<li><p>PERKINS, Kathy.PAUL, Ariel. University of Colorado Boulder. Cargas e Campos - versão 1.048. Disponível em: <a href="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html" class="uri">https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html</a>. Acesso em: 05 de janeiro de 2021.</p></li>
+</ol>
 </div>
 
 

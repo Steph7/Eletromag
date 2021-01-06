@@ -19,9 +19,11 @@ O primeiro passo para entender do que se trata os Campos Elétricos, iremos defi
 # Cargas elétricas 
 (Considerando cargas elétricas pontuais)
 
+<center>
 <a href = "https://images.app.goo.gl/LefCnAhMtHgMZVHCA">
 ![](images/cargas-pos-neg.png)
 </a>
+</center>
 
 **O que é uma carga pontual?** 
 **Uma carga pontual gera campo elétrico?** 
@@ -40,10 +42,11 @@ Uma das principais diferenças entre as cargas positivas e negativas são as lin
 
 Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma dessas cargas.
 
-
+<center>
 <a href = "https://images.app.goo.gl/vLDS4zFsL2SkEqMA6">
 ![](images/cargas-eletricas.jpeg)
 </a>
+</center>
 
 ## Como determinar um campo elétrico?
 (a partir dessas cargas pontuais)
@@ -112,11 +115,11 @@ Que tal adicionar uma carga positiva e uma negativa? Esse cenário cria um dipol
 
 O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, ou seja, cargas de mesma natureza ou mesmo sinal quando estão próximas tem um comportamento de repulsão entre si. Já cargas de sinais opostos estão próximas sua tendência é se aproximar ainda mais, logo o sentido do campo elétrico será para longe da carga pontual positiva e na direção da carga pontual negativa.
 
-
+<center>
 <a href = "https://i.stack.imgur.com/JxCq5.png">
 ![](images/posit-negativ.png)
 </a>
-
+</center>
 
 
 <center>
@@ -127,10 +130,52 @@ O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, o
 
 
 
-# Visualizar gráfico do campo elétrico
+
+Quando colocamos uma carga prova positiva $q_0$ nas proximidades de N cargas pontuais $q_1$, $q_2$,...$q_n$, a carga de prova é submetida a uma força total $\vec{F_T}$ dada por:
+
+$$
+\vec{F_T} = \vec{F_1} + \vec{F_2} + ... + \vec{F_n}
+$$
+
+$$
+\vec{F_T} = \sum_{i}^{n}\vec{F_i}
+$$
+
+Assim, o campo elétrico total $\vec{E_T}$ na posição da carga de prova é dado por:
+
+$$
+\vec{E_T} = \frac{\vec{F_T}}{q_0} = \frac{\vec{F_1}}{q_0} + \frac{\vec{F_2}}{q_0} + ... + \frac{\vec{F_n}}{q_0}
+$$
+
+$$
+\vec{E_T} = \vec{E_1} + \vec{E_2} + ... + \vec{E_n} = \sum_{i}^{n}\vec{E_i}
+$$
+
+Em que E1  é o campo elétrico que seria criado somente pela carga pontual 1. A equação mostra que o princípio de superposição se aplica aos campos elétricos.
 
 
-<iframe src="https://trinket.io/embed/glowscript/0924a7e482" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+# Campo  elétrico produzido por dipolo elétrico
+
+
+Duas partículas carregadas de módulo q e sinais opostos, separadas por uma distância d recebem o nome de dipolo elétrico.
+
+Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo do dipolo.
+
+<center>
+<a href = "https://www.geeksforgeeks.org/matplotlib-pyplot-streamplot-in-python/">
+![](images/dipolo.png){width=80%}
+
+</a>
+</center>
+
+
+
+# Referências:
+
+1. HALLIDAY, David, RESNICK, Robert, WALKER, Jearl. Fundamentos de Física - Vol. 3 - Eletromagnetismo, 10ª edição. LTC, 06/2016. VitalBook file.
+
+2. PERKINS, Kathy.PAUL, Ariel. University of Colorado Boulder. Cargas e Campos - versão 1.048. Disponível em: <https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html>. Acesso em: 05 de janeiro de 2021.
 
 
 
