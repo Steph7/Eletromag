@@ -171,6 +171,25 @@ Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo
 </center>
 
 
+## Curiosidade!
+
+A partir do código abaixo, é possível gerar vários gráficos de campos elétricos adionando cargas alternadas e igualmente espaçadas.
+
+Para ver o resultado desses campos, siga as instruções abaixo e realize as alterações na linha 27!
+
+Instruções para aumentar o número de Cargas
+
+1. É só aumentar as Potências de 2 (linha 27)
+
+* Para uma Carga pontual -> nq = 2**0
+* Para uma Carga dipolo -> nq = 2**1
+* Para uma Carga multipolo -> nq = 2**2 
+* E assim por diante! Divirta-se!
+* E espere o gráfico ser plotado, pois demora um pouco para gerar a imagem.
+
+<iframe src="https://trinket.io/embed/python3/9f3821c659" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+
 
 # Referências:
 
@@ -178,7 +197,7 @@ Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo
 
 2. PERKINS, Kathy.PAUL, Ariel. University of Colorado Boulder. Cargas e Campos - versão 1.048. Disponível em: <https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html>. Acesso em: 05 de janeiro de 2021.
 
-
+3. GEEKS FOR GEEKS. Matplotlib.pyplot.streamplot() in Python. Publicado em 12/04/2020. Disponível em: <https://www.geeksforgeeks.org/matplotlib-pyplot-streamplot-in-python/>. Acesso em: 04 de janeiro de 2021.
 
 
 
