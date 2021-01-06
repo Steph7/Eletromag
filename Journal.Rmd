@@ -21,7 +21,7 @@ O primeiro passo para entender do que se trata os Campos Elétricos, iremos defi
 
 <a href = "https://images.app.goo.gl/LefCnAhMtHgMZVHCA">
 ![](images/cargas-pos-neg.png)
-
+</a>
 
 **O que é uma carga pontual?** 
 **Uma carga pontual gera campo elétrico?** 
@@ -43,6 +43,7 @@ Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma 
 
 <a href = "https://images.app.goo.gl/vLDS4zFsL2SkEqMA6">
 ![](images/cargas-eletricas.jpeg)
+</a>
 
 ## Como determinar um campo elétrico?
 (a partir dessas cargas pontuais)
