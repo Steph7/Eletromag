@@ -117,9 +117,13 @@ O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, o
 ![](images/posit-negativ.png)
 </a>
 
+
+
+<center>
 <a href = "https://images.app.goo.gl/tnWtBjpfYN3Axf666">
-![](images/campos-dipolo.png)
+![](images/campos-dipolo.png){width=50%}
 </a>
+</center>
 
 
 
