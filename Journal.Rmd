@@ -33,6 +33,7 @@ Define-se carga elétrica pontual sendo um corpo eletrizado cujas dimensões sã
 
 O campo elétrico de uma carga pontual terá direção radial, ou seja, como se a carga estivesse localizada no centro de um círculo de raio “r”.
 
+$~$
 
 ## Natureza das cargas elétricas
 
@@ -47,6 +48,8 @@ Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma 
 ![](images/cargas-eletricas.jpeg)
 </a>
 </center>
+
+$~$
 
 ## Como determinar um campo elétrico?
 (a partir dessas cargas pontuais)
@@ -67,7 +70,7 @@ $$
 
 <center> $k_e$ ≈ 8.988 x $10^9 N {m^2}/{C^2}$ </center>
 
-
+$~$
 
 # Campo  elétrico
 
@@ -76,6 +79,8 @@ $$
 
 Cargas elétricas modificam as propriedades elétricas do espaço à sua volta, causando um campo elétrico. Esse campo elétrico desempenha a função de transmissor das interações entre cargas elétricas, podendo ser de afastamento ou de aproximação, de acordo com o sinal da carga que o produziu, sendo ele uma grandeza vetorial que depende do ponto no espaço em que ela se encontra.
 
+
+$~$
 
 ## Fórmula Matemática
 **Como calcular matemáticamento um campo elétrico?** 
@@ -96,6 +101,7 @@ $$
 $$
 {\vec{E_i}}=  \frac{1}{{4\pi\varepsilon _0}} \frac{q}{r^{2}} \hat{\mathbf r}
 $$
+$~$
 
 ## Simulação
 
@@ -107,6 +113,7 @@ Que tal adicionar uma carga positiva e uma negativa? Esse cenário cria um dipol
 <iframe src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html" width="800" height="400" scrolling="no" allowfullscreen></iframe>
 
 
+$~$
 
 # Campo elétrico Total
 
@@ -121,6 +128,7 @@ O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, o
 </a>
 </center>
 
+$~$
 
 <center>
 <a href = "https://images.app.goo.gl/tnWtBjpfYN3Axf666">
@@ -128,8 +136,7 @@ O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, o
 </a>
 </center>
 
-
-
+$~$
 
 Quando colocamos uma carga prova positiva $q_0$ nas proximidades de N cargas pontuais $q_1$, $q_2$,...$q_n$, a carga de prova é submetida a uma força total $\vec{F_T}$ dada por:
 
@@ -153,7 +160,7 @@ $$
 
 Em que E1  é o campo elétrico que seria criado somente pela carga pontual 1. A equação mostra que o princípio de superposição se aplica aos campos elétricos.
 
-
+$~$
 
 # Dipolo elétrico
 
@@ -165,6 +172,8 @@ Em que E1  é o campo elétrico que seria criado somente pela carga pontual 1. A
 </a>
 </center>
 
+$~$
+
 Duas partículas carregadas de módulo q e sinais opostos, separadas por uma distância d recebem o nome de dipolo elétrico.
 
 Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo do dipolo.
@@ -175,6 +184,8 @@ Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo
 
 </a>
 </center>
+
+$~$
 
 
 ## Curiosidade!
@@ -199,7 +210,9 @@ Instruções para aumentar o número de Cargas
 
 
 
-# Referências:
+$~$
+
+# Referências
 
 1. HALLIDAY, David, RESNICK, Robert, WALKER, Jearl. Fundamentos de Física - Vol. 3 - Eletromagnetismo, 10ª edição. LTC, 06/2016. VitalBook file.
 
